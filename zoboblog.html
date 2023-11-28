@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Zobo</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"/>
+        <link href="zoboblog.css" rel="stylesheet" type="text/css" />
+
+        
+    </head>
+    <body> 
+         <div id ="container">
+            <header>
+                <h1>How to make zobo</h1>
+                <script type = "text/javascript">
+                            var dt = Date();
+                            document.write("Viewed Today: " + dt)
+                        </script>
+
+                <img src="/c:\Users\Renniez/zobo.jfif" alt="zobo idk"/>
+                <!-- <img src="https://d27jswm5an3efw.cloudfront.net/app/uploads/2019/07/insert-image-html-4.jpg" /> -->
+                <h5>What is <em> zobo?</em></h5>
+                <p>Zobo is an affordable and tasty drink used as light refreshment at parties and ceremonies and even at home. Because of its health benefits, it has become popular among Nigerians. Zobo (or Zoborodo) is the word in Hausa language for the edible plant Hibiscus Sabdariffa and the popular drink it is used to make. </p>
+            </header>
+            <section id="ingredients" onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()" >
+                <h2>Ingredients <i class="fa fa-coffee" aria-hidden="true"></i> </h2>
+                <ul>
+                    <li>Hibiscus Sabdariffa leaf</li>
+                    <li>water</li>
+                    <li>Star anise seeds</li>
+                    <li>Sugar</li>
+                    <Li>Cinnamon sticks("Kirfa")</Li>
+                    <li>Cloves</li>
+                    <li>Cubeb pepper("Masoro")</li>
+            </section>
+            <section id="preparations" onmouseover="preparationsHover()" onmouseout="preparationsNormal()" >
+                <h2>preparation <i class="fa fa-check-circle-o" aria-hidden="true"></i> </h2>
+                <ol>
+                    <li>Zobo is prepared by simply adding all the ingredients and boiling in water for some time.</li>
+                    <li>The herbs and spices are added one after the other and boiled for no less than 30 minutes for their contents to fully permeate the water.</li>
+                    <li>The solid ingredients are finally strained from the liquid using a sieve.</li>
+                    <li>After sieving out the solid ingredients, the liquid is poured into a plastic bottle which is used to store it. Zobo drink is often served and sold in those plastic bottles.
+
+                    </li>
+
+                </ol>
+            </section>
+            <script>
+                function Rate() {
+                    alert("Thanks for your feedback");  2000;
+                }
+
+                
+                   
+
+
+            </script>
+            <h5><strong>rate this blog</strong></h5>
+            <form>
+                <input type = "button" title="This was good" value="Rate me" onclick = "Rate()">
+                <input type = "button" value="😐" onclick = "Rate()">
+                <input type = "button" value="😠" onclick = "Rate()">
+                <button type="button" title="This was good">Rate me</button>
+            </form>
+
+
+
+
+            <footer>
+                <p> David Oboh 2018</p>
+            </footer>
+        </div>
+        <script>
+
+        function ingredientsHover(){
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize="300%";
+        }
+        function ingredientsNormal(){
+            document.getElementById('ingredients').firstElementChild.firstElementChild.style.fontSize="100%";
+        }
+        function preparationsHover(){
+            document.getElementById('preparations').firstElementChild.firstElementChild.style.fontSize="300%";
+        }
+        function preparationsNormal(){
+            document.getElementById('preparations').firstElementChild.firstElementChild.style.fontSize="100%";
+        }
+
+    </script>
+   
+
+    </body>
+    
+
+</html>
